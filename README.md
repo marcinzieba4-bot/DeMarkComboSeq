@@ -131,3 +131,13 @@ most other sectors worse. Per-sector results: `results/s6_per_sector.csv`; joint
 statistics: `results/s6_joint_risk.csv`; chart: `results/s6_joint_pnl.png`.
 Sector labels for former members come from Yahoo's current profile and today's labels are
 applied to the whole history (except tech, which uses the dated map).
+
+## Study 7 — 2x leverage and an SPY short leg (`src/study7.py`, `results/report7.txt`)
+
+The all-sector book (study 6, version A, 1/11 per sector) with the sector ETFs at 2x and an
+unleveraged SPY short opened and closed with each sector position. 2x long alone: 6.8% a year,
+−37% drawdown. Adding the SPY short brings it back to 4.3% and −22%, the same as the unleveraged
+book: SPY rose as much as the sector ETFs after a trigger (3.4% a year each), so a 1x long / 1x
+short version earns only the T-bill rate. The rebate on the short proceeds (T-bill less an assumed
+0.25% borrow fee) averaged 1.39% a year, weighted by short size. Risk statistics:
+`results/s7_risk_stats.csv`; implied repo by year: `results/s7_implied_repo.csv`.
