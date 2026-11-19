@@ -150,3 +150,12 @@ The short leg lost about 11% a year (stocks rose 3% on average while the short w
 long leg made 5–7% a year but trailed XLK over the same days. Only 13–27% of positions reached a
 joint 13; most were closed when the countdown was cancelled, which locks in a loss by construction.
 Risk statistics: `results/s8_risk_stats.csv`.
+
+## Study 9 — the all-sector book with calls instead of ETFs (`src/study9.py`, `results/report9.txt`)
+
+Calls on the sector ETFs are priced with Black-Scholes (vol = VIX or VIX3M scaled by the sector's
+realised-vol ratio to SPY), because free option price history does not exist. At-the-money calls
+(30 or 60 days) roughly break even on premium and the book earns about the T-bill rate
+(1.4–1.7% a year against 4.4% for the ETF version); 20-delta calls lose 23–32% of premium on
+average. Implied vol at purchase averaged about 30%: the trigger fires in sell-offs, when options
+are most expensive. Risk statistics: `results/s9_risk_stats.csv`.
