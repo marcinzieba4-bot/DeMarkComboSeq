@@ -94,3 +94,10 @@ python3 src/download_all.py
 python3 src/download_etf.py
 python3 src/study2.py
 ```
+
+## Study 3 — every single tech signal as a trigger, buy and sell (`src/study3.py`, `results/report3.txt`)
+
+Each joint 13 in a tech stock is traded three ways (stock, XLK, or the pair), for buy and for
+sell signals. Risk statistics are in `results/s3_risk_stats.csv`; the chart is `results/s3_pnl.png`.
+Buying XLK on a buy signal was the best of the six (3.0% a year, −23% drawdown), and every
+variant of the sell signal lost money or made nothing. None came close to XLK buy-and-hold (15.8%).
