@@ -1,0 +1,51 @@
+                           Sector ETFs (base)  SPY scaled (1/11 per active sector)  SPY all-in, any sector active  SPY all-in, 3+ sectors active  Put spreads only  Sector ETFs + put spreads  SPY scaled + put spreads  Half ETFs + half put spreads  Sector ETFs + sold ATM puts  SPY buy & hold
+CAGR %                                   4.39                                 3.92                           3.03                           5.32              2.02                       4.84                      4.38                          3.24                         5.83           10.93
+Vol %                                    7.94                                 7.60                          16.87                          15.95              2.16                      10.01                      9.64                          5.01                        12.65           19.72
+Sharpe                                   0.58                                 0.54                           0.26                           0.41              0.94                       0.52                      0.49                          0.66                         0.51            0.63
+Max DD %                               -19.56                               -19.48                         -45.86                         -41.94             -7.21                     -25.94                    -25.89                        -13.40                       -31.52          -51.87
+Calmar                                   0.22                                 0.20                           0.07                           0.13              0.28                       0.19                      0.17                          0.24                         0.19            0.21
+Worst year %                            -2.66                                -6.46                         -34.78                         -24.73             -0.98                      -6.05                     -9.74                         -1.56                        -4.77          -36.24
+Best year %                             12.11                                 9.97                          26.58                          23.19              6.53                      15.31                     13.11                          8.86                        19.57           32.31
+Losing years                             1.00                                 1.00                           6.00                           4.00              2.00                       1.00                      1.00                          1.00                         2.00            3.00
+Worst day %                             -6.19                                -6.44                         -10.94                         -10.94             -2.25                      -8.43                     -8.69                         -4.22                       -10.18          -10.94
+CAGR 2008-Oct23 %                        3.74                                 3.50                           1.41                           5.06              1.40                       4.12                      3.89                          2.61                         5.06            9.31
+CAGR since Oct23 %                       7.66                                 5.98                          11.57                           6.56              5.20                       8.42                      6.73                          6.43                         9.63           19.43
+End value of 1                           2.25                                 2.07                           1.76                           2.66              1.46                       2.44                      2.25                          1.83                         2.92            7.09
+Return above T-bills %/yr                3.20                                 2.73                           3.00                           5.05              0.61                       3.81                      3.34                          1.91                         5.06           10.92
+Sharpe above T-bills                     0.40                                 0.36                           0.18                           0.32              0.28                       0.38                      0.35                          0.38                         0.40            0.55
+Beta to SPY                              0.29                                 0.29                           0.73                           0.65              0.08                       0.37                      0.36                          0.18                         0.47            1.00
+Time invested %                         49.57                                49.57                          49.57                          33.70               NaN                        NaN                       NaN                           NaN                          NaN          100.00
+Avg ETF/SPY exposure %                  12.46                                12.46                          49.57                          33.70               NaN                        NaN                       NaN                           NaN                          NaN          100.00
+
+SPY all-in (any sector): 48 trades, hit 71%, avg 1.30%, worst -31.6%, best 15.8%, avg length 68 calendar days
+
+SPY all-in (3+ sectors): 25 trades, hit 84%, avg 4.19%, worst -33.6%, best 25.9%, avg length 89 calendar days
+
+per sector, average 21-day-style trade: sector ETF vs SPY over the same days (% per day invested, annualised)
+                        days invested  sector ETF %/yr while invested  SPY %/yr on the same days  ETF minus SPY
+Information Technology            644                           33.40                      23.30          10.10
+Financials                        600                           35.00                      25.20           9.80
+Health Care                       595                           26.30                      23.20           3.20
+Industrials                       745                           15.40                      13.20           2.20
+Consumer Discretionary            888                           29.50                      27.00           2.50
+Consumer Staples                  543                           24.20                      21.40           2.90
+Energy                            728                           -3.30                       8.70         -12.00
+Utilities                         380                            6.40                     -24.30          30.80
+Materials                         531                           25.50                      31.10          -5.60
+Real Estate                       588                           49.30                      36.70          12.60
+Communication Services            271                           58.40                      66.70          -8.40
+
+yearly returns %:
+                                      2008  2009  2010  2011  2012  2013  2014  2015  2016  2017  2018  2019  2020  2021   2022  2023  2024  2025  2026
+Sector ETFs (base)                   -2.70 10.10  3.80  5.90  4.90  0.20  2.60  0.30  4.90  1.90  1.20  9.10  2.10  0.10  12.10  6.90  4.40 11.20  5.20
+SPY scaled (1/11 per active sector)  -6.50  7.10  3.70  4.80  4.40  0.40  3.50  0.70  3.60  2.30  1.20  7.30  6.90  2.00  10.00  7.90  5.40  7.90  2.80
+SPY all-in, any sector active       -34.80  7.30  9.30 -5.10  5.90  3.70 11.60 -2.90  5.70 10.80 -3.60 15.50 -9.80 11.60  -7.40 26.60 14.90  6.90  7.90
+SPY all-in, 3+ sectors active       -24.70 16.80 23.20 -2.20 17.50  3.20 13.10  0.80 13.00  1.20 -5.70 19.60  4.00  0.00  10.30 10.60  6.60  4.30 -0.10
+Put spreads only                     -1.00  2.00  1.30  1.00  1.20  0.10  0.70  0.10  1.00  1.40  1.80  3.60 -0.40  0.40   5.20  4.90  5.00  6.50  3.50
+Sector ETFs + put spreads            -6.10 11.80  5.00  6.70  6.10  0.30  3.30  0.20  5.60  2.30  1.10 10.80  0.70  0.50  15.30  6.70  4.30 13.70  5.30
+SPY scaled + put spreads             -9.70  8.90  4.90  5.60  5.50  0.40  4.20  0.70  4.30  2.80  1.00  8.90  5.50  2.40  13.10  7.60  5.30 10.30  3.00
+Half ETFs + half put spreads         -1.60  6.00  2.60  3.50  3.10  0.20  1.70  0.20  3.00  1.60  1.50  6.40  1.10  0.20   8.60  5.90  4.70  8.90  4.30
+Sector ETFs + sold ATM puts          -4.80 13.90  5.80  7.90  7.50  0.30  4.10  1.40  7.10  3.00  2.00 11.80 -1.70  1.10  19.60  7.60  4.50 15.80  6.40
+SPY buy & hold                      -36.20 26.40 15.10  1.90 16.00 32.30 13.50  1.20 12.00 21.70 -4.60 31.20 18.30 28.70 -18.20 26.20 24.90 17.70  7.90
+
+correlation of daily returns above cash, ETF book vs put-spread book: 0.95

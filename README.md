@@ -167,3 +167,12 @@ at each activation made 3.2% a year with a −14% drawdown (ETF book: 4.4%, −2
 puts and spreads made 1.6–2.2% with −4% to −8% drawdowns. Measured above T-bills and per unit of
 volatility, put selling is about equal to the ETF book and the spreads are worse: the structures
 scale the same exposure down rather than add an edge. Risk statistics: `results/s10_risk_stats.csv`.
+
+## Study 11 — SPY instead of sector ETFs, and ETF + put-spread books combined (`src/study11.py`, `results/report11.txt`)
+
+Putting each active sector's 1/11 slice into SPY instead of its own ETF made 3.9% a year (ETF
+book 4.4%) with the same −20% drawdown. Going all-in on SPY whenever any sector is active is much
+worse (3.0% a year, −46% drawdown, invested half the time); requiring three active sectors gives
+5.3% and −42%. The put-spread book moves almost exactly with the ETF book (daily correlation
+0.95), so running both adds size rather than diversification: 4.8% a year, −26% drawdown.
+Risk statistics: `results/s11_risk_stats.csv`.
