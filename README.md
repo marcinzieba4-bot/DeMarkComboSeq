@@ -41,6 +41,41 @@ return of all tech members entered on the same day.
 - As a portfolio (10 slots, idle cash earns nothing) the best joint variant made 2.6% a year against 15.8% for XLK buy-and-hold, because it is invested only 5–23% of the time and earns nothing extra while invested.
 - Plain setup 9 and an RSI<30 control made more money simply by being invested more often; neither beats peers per trade.
 
+## Study 2 — ideas from the earlier "joint 13" handoff (`src/study2.py`, `results/report2.txt`)
+
+The handoff reported +4.15% per 21-day trade on S&P 500 longs (+6.66% when the market is
+below its 200-day average). It used **today's** index members back to 2008 and data ending
+10 Oct 2023. Re-tested here on point-in-time members through Nov 2026.
+
+**Joint 13 buys, all sectors, 21-day hold**
+
+| Group | Trades | Avg | Hit | Excess vs same-day peers (t) |
+|---|---|---|---|---|
+| Point-in-time members, all | 1,867 | +2.70% | 59% | +0.26% (0.6) |
+| — market below 200-day | 927 | +5.33% | 65% | +1.06% (1.5) |
+| — market above 200-day | 940 | +0.10% | 53% | −0.52% (−1.5) |
+| — after 10 Oct 2023 (out of sample) | 356 | +2.38% | 58% | +0.05% (0.1) |
+| Today's members (handoff's method), all | 1,948 | +3.45% | 61% | +0.68% (1.8) |
+| Tech only, point-in-time | 245 | +1.02% | 54% | −0.29% (−0.4) |
+
+- The regime effect is real and survives out of sample, but it is market timing: the signal does not pick better stocks than its peers.
+- Using today's members adds about 0.75 points per trade and turns an insignificant excess into a "significant" one.
+- Tech stocks remain the weak spot (the handoff also ranked Info Tech second-worst).
+
+**Breadth trigger → buy XLK** (share of members with a joint buy 13 in the last 5 days; 21-day cooldown)
+
+| Trigger | Events | XLK next 21d | Hit | XLK next 63d | Random-date 21d / 63d |
+|---|---|---|---|---|---|
+| ≥2% of all S&P members | 38 | +2.4% | 61% | +6.3% | +1.4% / +4.6% |
+| ≥4% of all S&P members | 13 | +5.2% | 85% | +9.6% | same |
+| ≥4% of tech members | 26 | +4.1% | 77% | +7.5% | same |
+| ≥2% of all members, after Oct 2023 | 6 | +7.1% | 67% | +14.7% | +2.3% / +7.2% |
+
+- The 4% triggers beat random dates in about 99% of resamples, but the events fall in roughly eight sell-off episodes, and three thresholds were tried.
+- It failed in 2008: the worst 21-day result was −20% and the worst 63-day result −34% (2% trigger).
+- Run as a stand-alone book (XLK for 21 days after a trigger, T-bills otherwise) it makes 4–6% a year against 15.8% for XLK buy-and-hold, because it is invested only 7–42% of the time. It is a timing overlay for adding exposure, not a replacement for holding.
+- The ATR 2×/3× exit halves holding time and per-trade return and leaves Sharpe about unchanged; it did not materially cut drawdown here (−44% vs −47%).
+
 ## Limits
 
 - **Survivorship gap.** 40 of 143 historical members (19% of member-days) have no free price history — nearly all acquired companies (Xilinx, EMC, Citrix, Red Hat…), one bankruptcy (SunEdison). Benchmarks use the same data, so the *excess* figures are comparable, but absolute returns are not exact.
@@ -55,4 +90,7 @@ pip install yfinance pandas numpy
 python3 src/download.py
 python3 src/test_demark.py
 python3 src/backtest.py
+python3 src/download_all.py
+python3 src/download_etf.py
+python3 src/study2.py
 ```

@@ -1,0 +1,86 @@
+market below its 200-day average on 23% of days since 2008
+all-sector universe: 640 of 900 tickers have price data
+
+=== ALL-SECTORS point-in-time members: 21-day return after joint 13 buy (entry next open) ===
+                                          n  months  avg  med   hit   pf  excess  t_excess
+group                                                                                     
+ALL member-days (unconditional)     1886630     226 1.08 1.17 56.72 1.39   -0.00     -1.53
+joint 13 buys                          1867     197 2.70 1.91 58.70 1.72    0.26      0.64
+  market below 200d                     927      66 5.33 4.56 64.62 2.35    1.06      1.49
+  market above 200d                     940     158 0.10 0.47 52.87 1.03   -0.52     -1.50
+ALL member-days, market below 200d   411297      78 1.63 1.77 57.55 1.44    0.00      0.50
+  in-sample  (to 10 Oct 2023)          1511     163 2.77 1.98 58.84 1.70    0.31      0.64
+  OUT-OF-SAMPLE (after)                 356      35 2.38 1.59 58.15 1.82    0.05      0.09
+  OUT-OF-SAMPLE, below 200d              62       6 6.04 6.87 62.90 3.00    0.40      0.21
+ALL member-days, out-of-sample       368458      37 1.39 1.18 56.15 1.50   -0.00     -1.71
+
+=== TODAYS members back to 2008 (survivorship-biased, as in the handoff): 21-day return after joint 13 buy (entry next open) ===
+                                          n  months  avg  med   hit   pf  excess  t_excess
+group                                                                                     
+ALL member-days (unconditional)     2190554     226 1.39 1.38 57.93 1.52    0.00      1.19
+joint 13 buys                          1948     193 3.45 2.58 61.04 2.01    0.68      1.78
+  market below 200d                    1037      66 5.99 4.92 66.06 2.64    1.60      2.59
+  market above 200d                     911     153 0.57 0.82 55.32 1.18   -0.37     -1.17
+ALL member-days, market below 200d   492248      78 1.83 1.93 58.09 1.50    0.00      0.29
+  in-sample  (to 10 Oct 2023)          1611     159 3.60 2.69 61.14 2.01    0.79      1.77
+  OUT-OF-SAMPLE (after)                 337      35 2.77 2.04 60.53 2.01    0.16      0.27
+  OUT-OF-SAMPLE, below 200d              57       6 7.85 8.31 68.42 4.05    1.30      0.70
+ALL member-days, out-of-sample       376078      37 1.73 1.36 57.05 1.64   -0.00     -2.03
+
+=== TECH point-in-time members: 21-day return after joint 13 buy (entry next open) ===
+                                         n  months   avg   med   hit   pf  excess  t_excess
+group                                                                                      
+ALL member-days (unconditional)     269706     226  1.49  1.46 57.43 1.49    0.00      2.70
+joint 13 buys                          245      84  1.02  1.30 53.88 1.20   -0.29     -0.41
+  market below 200d                    157      40  1.95  3.49 58.60 1.34    0.08      0.09
+  market above 200d                     88      53 -0.64 -0.33 45.45 0.85   -0.97     -0.93
+ALL member-days, market below 200d   59991      78  2.32  2.35 58.39 1.62    0.00      1.96
+  in-sample  (to 10 Oct 2023)          210      66  0.25  1.13 52.86 1.05   -0.32     -0.44
+  OUT-OF-SAMPLE (after)                 35      19  5.61  2.04 60.00 2.73   -0.13     -0.05
+  OUT-OF-SAMPLE, below 200d             11       4 16.93 11.46 72.73 8.28    3.95      1.07
+ALL member-days, out-of-sample       50211      37  2.26  1.54 56.38 1.61   -0.00     -1.01
+
+=== BREADTH TRIGGER: share of members with a joint buy 13 in last 5 days >= threshold -> buy ETF next open ===
+pct = share of random-date samples doing at least as well (small = unusual)
+all-sector breadth->SPY trigger dates at 2%: 2008-01-08, 2008-03-04, 2008-07-02, 2008-09-05, 2008-10-07, 2008-11-07, 2009-02-20, 2010-06-30, 2010-08-24, 2011-06-06, 2011-08-01, 2011-09-21, 2012-05-15, 2012-06-26, 2012-11-14, 2014-10-13, 2015-06-26, 2015-08-21, 2015-09-28, 2016-01-12, 2016-02-12, 2018-03-23, 2018-10-23, 2018-12-10, 2019-06-03, 2020-02-27, 2020-04-01, 2022-01-20, 2022-02-22, 2022-05-24, 2022-09-23, 2023-09-13, 2023-10-24, 2024-04-16, 2024-12-16, 2025-04-07, 2026-05-04, 2026-09-21
+all-sector breadth->XLK trigger dates at 2%: 2008-01-08, 2008-03-04, 2008-07-02, 2008-09-05, 2008-10-07, 2008-11-07, 2009-02-20, 2010-06-30, 2010-08-24, 2011-06-06, 2011-08-01, 2011-09-21, 2012-05-15, 2012-06-26, 2012-11-14, 2014-10-13, 2015-06-26, 2015-08-21, 2015-09-28, 2016-01-12, 2016-02-12, 2018-03-23, 2018-10-23, 2018-12-10, 2019-06-03, 2020-02-27, 2020-04-01, 2022-01-20, 2022-02-22, 2022-05-24, 2022-09-23, 2023-09-13, 2023-10-24, 2024-04-16, 2024-12-16, 2025-04-07, 2026-05-04, 2026-09-21
+tech breadth->XLK trigger dates at 2%: 2008-01-08, 2008-02-19, 2008-03-20, 2008-07-14, 2008-09-04, 2008-10-06, 2008-11-12, 2009-03-09, 2010-06-07, 2010-07-30, 2010-08-31, 2011-06-02, 2011-07-11, 2011-08-18, 2011-09-20, 2011-10-26, 2012-04-13, 2012-05-15, 2012-07-11, 2012-11-12, 2014-03-13, 2014-10-13, 2015-06-30, 2015-08-21, 2015-09-29, 2015-12-14, 2018-09-11, 2018-10-29, 2018-12-21, 2020-03-05, 2022-01-13, 2022-02-15, 2022-05-11, 2022-06-13, 2022-09-01, 2022-10-04, 2022-11-03, 2023-04-24, 2023-09-18, 2023-10-23, 2024-04-16, 2025-03-31, 2025-10-09, 2025-11-17, 2026-04-09
+               etf threshold        period  n  avg21  hit21  base21  worst21  pct21  avg63  hit63  base63  worst63  pct63
+               SPY        1%           all 64   0.78  64.06    1.00   -13.99   0.50   3.21  73.02    3.11   -28.77   0.22
+               SPY        1% out-of-sample 12   1.36  75.00    1.69    -6.89   0.46   4.89  81.82    5.17    -6.09   0.24
+               SPY        2%           all 38   1.60  57.89    1.00   -17.74   0.19   4.14  70.27    3.11   -32.99   0.14
+               SPY        2% out-of-sample  6   3.86  66.67    1.69    -0.76   0.06   9.51  80.00    5.17    -6.09   0.03
+               SPY        4%           all 13   4.52  61.54    1.00   -11.74   0.00   7.64  76.92    3.11    -6.27   0.01
+               SPY        4% out-of-sample  0    NaN    NaN    1.69      NaN    NaN    NaN    NaN    5.17      NaN    NaN
+               XLK        1%           all 64   1.34  54.69    1.44   -16.34   0.42   4.96  74.60    4.57   -29.21   0.19
+               XLK        1% out-of-sample 12   1.56  50.00    2.25   -16.34   0.46   7.34  63.64    7.22   -10.85   0.20
+               XLK        2%           all 38   2.43  60.53    1.44   -20.05   0.13   6.26  70.27    4.57   -34.32   0.10
+               XLK        2% out-of-sample  6   7.12  66.67    2.25    -4.70   0.04  14.65  80.00    7.22   -10.85   0.05
+               XLK        4%           all 13   5.16  84.62    1.44    -8.48   0.01   9.63  84.62    4.57    -6.94   0.02
+               XLK        4% out-of-sample  0    NaN    NaN    2.25      NaN    NaN    NaN    NaN    7.22      NaN    NaN
+XLK (tech breadth)        1%           all 77   1.44  59.21    1.44   -12.48   0.37   4.55  67.11    4.57   -29.21   0.20
+XLK (tech breadth)        1% out-of-sample 17   2.94  62.50    2.25    -8.77   0.23   8.06  68.75    7.22   -12.17   0.10
+XLK (tech breadth)        2%           all 45   1.80  57.78    1.44   -12.48   0.29   5.50  66.67    4.57   -29.21   0.16
+XLK (tech breadth)        2% out-of-sample  6   6.72  66.67    2.25    -0.91   0.05  14.65  83.33    7.22    -0.12   0.05
+XLK (tech breadth)        4%           all 26   4.05  76.92    1.44   -12.48   0.01   7.52  69.23    4.57   -29.21   0.04
+XLK (tech breadth)        4% out-of-sample  2  13.32 100.00    2.25    12.72   0.02  29.30 100.00    7.22    23.59   0.01
+
+=== PORTFOLIOS 2008 -> Nov 2026 (10 bps/side, idle cash in T-bills) ===
+                                             trades   expo  cagr   vol  sharpe  maxdd  total  oos_cagr  oos_maxdd  avg_trade   hit  bars
+strategy                                                                                                                                
+stocks tech | any regime | hold 21d          227.00   9.55  2.71 10.44    0.31 -27.78   1.66      9.42      -6.29       0.82 53.47 21.00
+stocks tech | any regime | ATR 2x/3x         237.00   5.45  1.50  6.56    0.26 -26.91   1.32      5.21      -3.08       0.15 47.76 11.92
+stocks tech | below 200d | hold 21d          139.00   5.87  3.24  9.57    0.38 -27.78   1.83     10.31      -6.24       1.75 58.60 21.00
+stocks tech | below 200d | ATR 2x/3x         150.00   3.53  2.36  6.24    0.41 -26.91   1.55      6.78      -3.08       1.19 54.78 12.25
+stocks all sectors | any regime | hold 21d  1420.00  29.75  2.46 18.80    0.22 -46.71   1.58      7.61     -18.09       2.09 57.60 20.97
+stocks all sectors | any regime | ATR 2x/3x 1705.00  19.25  2.89 14.13    0.27 -44.01   1.71      5.09      -9.67       1.11 50.24 11.58
+stocks all sectors | below 200d | hold 21d   620.00  12.99  3.44 17.17    0.28 -46.71   1.89      8.56     -11.66       4.40 63.78 21.00
+stocks all sectors | below 200d | ATR 2x/3x  799.00   8.89  3.30 13.41    0.31 -44.01   1.85      7.15      -7.00       2.30 54.91 11.58
+XLK when tech breadth >= 1%, 21d                NaN  41.82  4.77 18.94    0.34 -42.26   2.41     14.03     -30.23        NaN   NaN   NaN
+XLK when all-sector breadth >= 1%, 21d          NaN  37.61  4.96 18.93    0.35 -44.35   2.49     13.40     -32.50        NaN   NaN   NaN
+XLK when tech breadth >= 2%, 21d                NaN  24.92  5.30 16.88    0.39 -42.26   2.65     23.11     -14.22        NaN   NaN   NaN
+XLK when all-sector breadth >= 2%, 21d          NaN  22.50  6.01 16.71    0.43 -40.13   3.01     15.89     -19.68        NaN   NaN   NaN
+XLK when tech breadth >= 4%, 21d                NaN  14.31  5.13 15.08    0.41 -41.60   2.57     13.62      -8.04        NaN   NaN   NaN
+XLK when all-sector breadth >= 4%, 21d          NaN   7.32  4.22 12.87    0.39 -25.73   2.18      2.33      -6.37        NaN   NaN   NaN
+XLK buy & hold                                  NaN 100.00 15.84 23.80    0.74 -49.25  16.05     24.07     -25.66        NaN   NaN   NaN
+SPY buy & hold                                  NaN 100.00 10.93 19.72    0.63 -51.87   7.09     19.43     -18.76        NaN   NaN   NaN

@@ -3,3 +3,4 @@ data/raw/
 results/*.pkl
 __pycache__/
 data/prices_etf/
+data/prices_all/
