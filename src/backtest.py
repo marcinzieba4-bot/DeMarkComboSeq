@@ -212,6 +212,12 @@ def stats(eq):
                 total=eq.iloc[-1] / eq.iloc[0])
 
 
+def yearly(eq):
+    """Calendar-year returns including the first (partial) year, from a start value of 1."""
+    y = eq.resample("YE").last()
+    return pd.concat([pd.Series([1.0], index=[eq.index[0] - pd.Timedelta(days=1)]), y]).pct_change().dropna()
+
+
 def trade_stats(tr):
     if len(tr) == 0:
         return dict(n=0)

@@ -1,0 +1,122 @@
+signals in top-30 stocks since 2008: 130; activation days: 67; separate episodes (gap > 21 days): 19
+activation                              stocks  XLK 21d %  XLK 63d %  worst dip in 21d %  new episode
+2008-01-16                            CIEN MSI      -4.62      -1.69               -6.38         True
+2008-01-22                       CIEN MSI PAYX       2.32       8.44                1.36        False
+2008-02-22                           ADSK MSFT       3.55       9.49               -2.81         True
+2008-02-26                     ADSK GOOGL MSFT      -1.07       9.06               -4.56        False
+2008-03-04                ADSK GOOGL MSFT NVDA       4.37      11.22               -2.55        False
+2008-03-05                ADBE GOOGL MSFT NVDA       3.64      11.04               -2.90        False
+2008-03-12                      ADBE KLAC NVDA       2.80       8.90               -0.59        False
+2008-03-17                 ADBE EBAY KLAC NVDA       4.72       9.64               -0.98        False
+2008-09-04                               MA MU     -12.48     -29.21              -12.48         True
+2008-09-12                          MA MU NVDA     -14.81     -27.24              -23.74        False
+2008-09-26                           AKAM NVDA     -27.41     -26.13              -27.41        False
+2008-10-02                            AKAM IBM     -12.64     -15.66              -22.61        False
+2008-10-03                       AKAM IBM NTAP      -8.26     -11.71              -18.73        False
+2008-10-06                  AKAM CTSH IBM NTAP      -3.88      -9.16              -18.28        False
+2008-10-07              ADI AKAM CTSH IBM NTAP       0.00      -2.61               -9.51        False
+2008-10-09          ADI AKAM CTSH IBM NTAP TXN       3.80       2.45               -3.34        False
+2008-10-15     ADBE ADI CTSH IBM NTAP ORCL TXN      -2.45      -6.23               -8.17        False
+2008-10-16 ADBE ADI CTSH GEN IBM NTAP ORCL TXN      -9.81      -8.53              -11.02        False
+2008-10-21          ADBE ADI GEN INTC ORCL TXN     -14.62      -8.56              -14.62        False
+2008-10-22         ADBE GEN INTC ORCL QCOM TXN     -15.07      -3.61              -15.07        False
+2008-10-27     ADBE GEN INTC ORCL QCOM VRSN WU      -3.02       2.91              -13.39        False
+2008-11-12                           ADSK KLAC       5.35       6.19               -9.47        False
+2008-11-19                      ADSK AMAT KLAC      13.13       2.76               -2.80        False
+2009-03-09                           CSCO ORCL      21.06      37.24                4.72         True
+2010-06-30                            INTC WDC       7.40      13.64               -0.59         True
+2010-08-12                             GEN WDC       3.99      18.24               -2.77         True
+2010-08-23                             AMD WDC       8.90      16.57               -1.15        False
+2010-08-24                    ADP AMD CSCO WDC       9.75      18.31               -0.24        False
+2010-08-25               ADP AMAT AMD CSCO WDC       9.97      14.58               -1.94        False
+2011-06-10                             FSLR MU       4.49      -4.86               -0.98         True
+2011-06-24                              AMD MU       8.87      -2.03                1.14        False
+2011-07-11                             AMD GLW      -7.48      -6.00              -11.52        False
+2011-07-18                            GLW NVDA      -6.56       0.07              -11.96        False
+2011-07-27                           ADBE NVDA     -10.30      -1.55              -13.45        False
+2011-07-29                       ADBE NVDA TXN      -6.66       1.34              -13.85        False
+2011-08-02                         ADBE MU TXN      -3.28       3.32              -10.88        False
+2011-10-03                            HPQ VIAV      10.82      13.60                3.16         True
+2012-04-24                           FSLR NVDA      -5.17      -4.46               -7.26         True
+2012-05-16                           AMAT NTAP       1.10       7.52               -3.44        False
+2012-05-18                        AMAT MU NTAP       5.02      12.13               -1.20        False
+2012-06-01                              MU TXN       6.27      11.28                0.26        False
+2012-07-24                             GLW IBM       9.43       5.79                0.32         True
+2012-11-15                      AMAT MSFT NTAP       5.03       9.05                0.04         True
+2012-11-29                       AMAT MSFT STX      -0.46       2.71               -2.15        False
+2015-06-30                           FSLR ORCL       2.27      -6.86               -2.35         True
+2015-08-04                              HPQ MU      -5.88       4.41              -11.02         True
+2015-08-18                            HPQ QCOM      -3.64       2.14              -10.90        False
+2015-08-21                           ORCL QCOM       7.97      19.10                1.86        False
+2015-08-24                      INTC ORCL QCOM       1.49      12.49               -4.48        False
+2015-09-01                  INTC ORCL QCOM TXN       0.45      12.73               -1.56        False
+2015-09-29                             HPQ STX      12.40      12.32                0.77        False
+2016-01-20                              MU WDC       3.49      13.50               -1.43         True
+2019-01-03                           AAPL CTSH      12.96      26.40                2.55         True
+2022-02-14                            ACN ORCL      -4.00     -14.16              -10.04         True
+2022-02-23                  ACN INTU ORCL PYPL      11.54      -6.94               -0.56        False
+2022-05-12                           NVDA PYPL      -6.00      13.30               -6.00         True
+2022-05-18                  AAPL CRM NVDA PYPL      -5.04      15.25               -5.90        False
+2022-05-19             AAPL CRM INTC NVDA PYPL      -3.62      12.00               -6.86        False
+2022-06-17                            AMD KLAC       8.80       2.89                0.64        False
+2022-06-23                  AMD KLAC NXPI QCOM       4.64      -3.54               -2.44        False
+2022-09-27                            INTC NOW       2.77       1.27               -4.63         True
+2022-09-30                   CRM INTC NOW ORCL       6.81       4.24               -2.64        False
+2022-10-07          AAPL CRM IBM INTC NOW ORCL       1.85       4.78               -3.49        False
+2022-10-10     AAPL CRM IBM INTC NOW ORCL QCOM       5.19       7.85               -1.27        False
+2022-10-12         AAPL CRM IBM NXPI ORCL QCOM      15.42      15.06                2.99        False
+2025-04-07                            ACN ANET      13.41      35.72               -5.55         True
+2025-04-16                       ACN ANET AVGO      20.27      33.81               -3.80        False
+
+forward XLK return, % (mean / hit rate / random-date mean / share of random samples at least as good)
+  all activation days          21d: n=67 mean  1.33  hit  61%  random 1.44  p=0.554  worst -27.41
+  all activation days          63d: n=67 mean  4.72  hit  69%  random 4.57  p=0.465  worst -29.21
+  first day of each episode    21d: n=19 mean  3.29  hit  68%  random 1.44  p=0.082  worst -12.48
+  first day of each episode    63d: n=19 mean  7.39  hit  68%  random 4.57  p=0.113  worst -29.21
+  episodes after 10 Oct 2023   21d: n= 1 mean 13.41  hit 100%  random 2.25  p=0.065  worst  13.41
+  episodes after 10 Oct 2023   63d: n= 1 mean 35.72  hit 100%  random 7.22  p=0.027  worst  35.72
+
+trades, hold 21d:
+     entry       exit    ret
+2008-01-17 2008-02-21  -5.69
+2008-02-25 2008-04-16   4.33
+2008-09-05 2008-12-19 -28.03
+2009-03-10 2009-04-07  20.81
+2010-07-01 2010-07-30   7.18
+2010-08-13 2010-09-24   8.82
+2011-06-13 2011-08-31  -1.21
+2011-10-04 2011-11-01  10.60
+2012-04-25 2012-07-02  -2.28
+2012-07-25 2012-08-22   9.21
+2012-11-16 2012-12-31   4.73
+2015-07-01 2015-07-30   2.07
+2015-08-05 2015-10-28   4.25
+2016-01-21 2016-02-19   3.28
+2019-01-04 2019-02-04  12.73
+2022-02-15 2022-03-24   0.71
+2022-05-13 2022-07-25   2.36
+2022-09-28 2022-11-10   6.89
+2025-04-08 2025-05-16  23.19
+
+=== RISK STATS (100% XLK while active, T-bills otherwise, 10 bps per side) ===
+                             XLK after activation, hold 21d  XLK after activation, hold 63d  XLK buy & hold
+Trades (episodes)                                     19.00                           13.00             NaN
+Avg trade %                                            4.42                            8.12             NaN
+Hit %                                                 78.95                           84.62             NaN
+Profit factor                                          3.26                            2.94             NaN
+Worst trade %                                        -28.03                          -34.63             NaN
+Best trade %                                          23.19                           37.05             NaN
+Time invested %                                       13.56                           26.82          100.00
+CAGR %                                                 5.23                            5.44           15.84
+Vol %                                                 12.97                           15.30           23.80
+Sharpe                                                 0.46                            0.42            0.74
+Max DD %                                             -39.23                          -40.32          -49.25
+Calmar                                                 0.13                            0.13            0.32
+Worst year %                                         -28.63                          -24.91          -40.30
+Best year %                                           27.64                           41.01           56.02
+Return while invested, %/yr                           32.42                           16.77           15.84
+CAGR 2008-Oct23 %                                      4.04                            3.63           14.22
+CAGR since Oct23 %                                    11.50                           15.13           24.07
+End value of 1                                         2.62                            2.72           16.05
+
+current top-30 by dollar volume: AAPL ADBE ADI AMAT AMD AVGO COHR CRM CRWD CSCO DELL GLW IBM INTC INTU KLAC LITE LRCX MRVL MSFT MU NOW NVDA ORCL PANW PLTR QCOM STX TXN WDC

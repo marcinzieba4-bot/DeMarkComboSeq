@@ -101,3 +101,13 @@ Each joint 13 in a tech stock is traded three ways (stock, XLK, or the pair), fo
 sell signals. Risk statistics are in `results/s3_risk_stats.csv`; the chart is `results/s3_pnl.png`.
 Buying XLK on a buy signal was the best of the six (3.0% a year, −23% drawdown), and every
 variant of the sell signal lost money or made nothing. None came close to XLK buy-and-hold (15.8%).
+
+## Study 4 — buy XLK when two of the 30 biggest tech stocks fire (`src/study4.py`, `results/report4.txt`)
+
+Activation: a top-30 tech stock prints a joint buy 13 and a different top-30 stock did so on the
+same day or within the previous 10 trading days. "Top 30" is ranked each day by trailing 250-day
+dollar volume among that day's index members. Buy XLK at the next open, hold 21 days (restarted
+by new activations), T-bills otherwise. 67 activation days form 19 episodes since 2008:
+15 of 19 trades won (average +4.4%), but the Sep–Dec 2008 trade lost 28%. The book made 5.2% a
+year invested 14% of the time, against 15.8% for XLK buy-and-hold. Dates are in
+`results/s4_activations.csv`, risk statistics in `results/s4_risk_stats.csv`.

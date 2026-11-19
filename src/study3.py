@@ -107,7 +107,7 @@ def book(tr, data, xlk, cal, side, variant, cashr):
 def risk(eq, tr_ret, gross):
     s = bt.stats(eq)
     r = eq.pct_change().dropna()
-    yr = eq.resample("YE").last().pct_change().dropna()
+    yr = bt.yearly(eq)
     dd = eq / eq.cummax() - 1
     under = (dd < 0).astype(int)
     longest = under.groupby((under == 0).cumsum()).sum().max() / 252
