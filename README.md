@@ -111,3 +111,12 @@ by new activations), T-bills otherwise. 67 activation days form 19 episodes sinc
 15 of 19 trades won (average +4.4%), but the Sep–Dec 2008 trade lost 28%. The book made 5.2% a
 year invested 14% of the time, against 15.8% for XLK buy-and-hold. Dates are in
 `results/s4_activations.csv`, risk statistics in `results/s4_risk_stats.csv`.
+
+## Study 5 — trigger size, stop-loss, ban and 100-day filter (`src/study5.py`, `results/report5.txt`)
+
+90 combinations of the study-4 XLK trigger: 1, 2 or 3 stocks; stop none/5%/8%/10%; ban after a
+stop-out 0/21/63 days; XLK above/below its 100-day average or no filter. Full grid in
+`results/s5_grid.csv`. Main findings: activations with XLK above its 100-day average lose money;
+a 5% stop is too tight; an 8–10% stop only helps when paired with a ban, and then it roughly
+halves the worst drawdown for about 1 point of yearly return. Each cell has only 13–35 trades and
+the drawdown improvement comes almost entirely from 2008.
