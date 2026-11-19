@@ -91,7 +91,7 @@ python3 src/download.py
 python3 src/test_demark.py
 python3 src/backtest.py
 python3 src/download_all.py
-python3 src/download_etf.py
+python3 src/download_etf.py   # study 6 also needs XLF XLE XLV XLI XLY XLP XLU XLB VNQ VOX and data/sector_map_all.csv
 python3 src/study2.py
 ```
 
@@ -120,3 +120,14 @@ stop-out 0/21/63 days; XLK above/below its 100-day average or no filter. Full gr
 a 5% stop is too tight; an 8–10% stop only helps when paired with a ban, and then it roughly
 halves the worst drawdown for about 1 point of yearly return. Each cell has only 13–35 trades and
 the drawdown improvement comes almost entirely from 2008.
+
+## Study 6 — every sector, combined into one book (`src/study6.py`, `results/report6.txt`)
+
+The study-4/5 trigger is run on each of the 11 sectors (30 biggest point-in-time members,
+sector ETF bought on activation) and the sleeves are combined. The plain two-stock trigger
+with 1/11 of capital per sector made 4.4% a year with a −20% worst drawdown and 12% average
+exposure; SPY made 10.9% with −52%. The stop, ban and 100-day filter that helped in tech made
+most other sectors worse. Per-sector results: `results/s6_per_sector.csv`; joint risk
+statistics: `results/s6_joint_risk.csv`; chart: `results/s6_joint_pnl.png`.
+Sector labels for former members come from Yahoo's current profile and today's labels are
+applied to the whole history (except tech, which uses the dated map).

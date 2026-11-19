@@ -75,7 +75,7 @@ def sim(x, act, cash, stop, ban, ma):
                 ban_until = k + ban
     eq = pd.Series(np.cumprod(1 + ret), x.index)
     T = pd.DataFrame(trades, columns=["entry", "exit", "ret", "why"])
-    return eq, T, inv.mean()
+    return eq, T, inv
 
 
 def row(eq, T, inv):
@@ -94,7 +94,7 @@ def main():
                                                 [(0, 0)] + [(s, b) for s in (0.05, 0.08, 0.10) for b in (0, 21, 63)]):
         eq, T, inv = sim(x, acts[n], cash, stop, ban, ma)
         lab = dict(N=n, MA100=ma, stop=f"{stop:.0%}" if stop else "none", ban=ban if stop else "-")
-        rows.append({**lab, **row(eq, T, inv)})
+        rows.append({**lab, **row(eq, T, inv.mean())})
         curves[f"N{n}|{ma}|{lab['stop']}|{lab['ban']}"] = eq
         if (n, ma, stop, ban) in ((1, "none", 0, 0), (3, "none", 0, 0), (2, "none", 0.08, 63)):
             T.assign(ret=T.ret * 100).to_csv(ROOT / f"results/s5_trades_N{n}_{lab['stop']}_{lab['ban']}.csv", index=False)
