@@ -159,3 +159,11 @@ realised-vol ratio to SPY), because free option price history does not exist. At
 (1.4–1.7% a year against 4.4% for the ETF version); 20-delta calls lose 23–32% of premium on
 average. Implied vol at purchase averaged about 30%: the trigger fires in sell-offs, when options
 are most expensive. Risk statistics: `results/s9_risk_stats.csv`.
+
+## Study 10 — selling puts and put spreads at activation (`src/study10.py`, `results/report10.txt`)
+
+Same model pricing as study 9. Selling a cash-secured at-the-money 30-day put on the sector ETF
+at each activation made 3.2% a year with a −14% drawdown (ETF book: 4.4%, −20%); out-of-the-money
+puts and spreads made 1.6–2.2% with −4% to −8% drawdowns. Measured above T-bills and per unit of
+volatility, put selling is about equal to the ETF book and the spreads are worse: the structures
+scale the same exposure down rather than add an edge. Risk statistics: `results/s10_risk_stats.csv`.
