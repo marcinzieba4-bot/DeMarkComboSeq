@@ -141,3 +141,12 @@ book: SPY rose as much as the sector ETFs after a trigger (3.4% a year each), so
 short version earns only the T-bill rate. The rebate on the short proceeds (T-bill less an assumed
 0.25% borrow fee) averaged 1.39% a year, weighted by short size. Risk statistics:
 `results/s7_risk_stats.csv`; implied repo by year: `results/s7_implied_repo.csv`.
+
+## Study 8 — trade with the move at countdown bar 4/5, fade via XLK at the joint 13 (`src/study8.py`, `results/report8.txt`)
+
+Tech stocks: short at bar 4 or 5 of a Sequential buy countdown (buy at bar 4 or 5 of a sell
+countdown); at the joint 13, add the opposite XLK position for 21 days, then close both.
+The short leg lost about 11% a year (stocks rose 3% on average while the short was open); the
+long leg made 5–7% a year but trailed XLK over the same days. Only 13–27% of positions reached a
+joint 13; most were closed when the countdown was cancelled, which locks in a loss by construction.
+Risk statistics: `results/s8_risk_stats.csv`.

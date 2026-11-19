@@ -32,7 +32,8 @@ def td_buy_signals(o, h, l, c, recycle="perl"):
     seq13 = np.zeros(n, bool)
     combo13 = np.zeros(n, bool)
     sell9 = np.zeros(n, bool)
-    risk = np.full(n, np.nan)  # DeMark-style risk level known at bar i
+    seq_inc = np.zeros(n, int)     # Sequential countdown number printed on this bar (0 = none)
+    seq_cancel = np.zeros(n, bool) # a running Sequential countdown was cancelled on this bar
 
     seq = None    # dict(count, bar8_close, tdst, rng)
     combo = None  # dict(count, last_close, tdst, rng)
@@ -47,12 +48,15 @@ def td_buy_signals(o, h, l, c, recycle="perl"):
 
         # ---- cancellations (checked before counting this bar)
         if sell9[i]:
+            if seq is not None:
+                seq_cancel[i] = True
             seq = combo = None
         for st in (seq, combo):
             if st is not None and l[i] > st["tdst"]:
                 st["dead"] = True
         if seq is not None and seq.get("dead"):
             seq = None
+            seq_cancel[i] = True
         if combo is not None and combo.get("dead"):
             combo = None
 
@@ -89,10 +93,12 @@ def td_buy_signals(o, h, l, c, recycle="perl"):
         if seq is not None and i >= 2 and c[i] <= l[i - 2]:
             if seq["count"] < 12:
                 seq["count"] += 1
+                seq_inc[i] = seq["count"]
                 if seq["count"] == 8:
                     seq["bar8"] = c[i]
             elif l[i] <= seq["bar8"]:
                 seq13[i] = True
+                seq_inc[i] = 13
                 seq = None
 
         # ---- Combo countdown on bar i
@@ -103,7 +109,8 @@ def td_buy_signals(o, h, l, c, recycle="perl"):
             if combo["count"] == 13:
                 combo13[i] = True
                 combo = None
-    return dict(bs=bs, ss=ss, setup9=setup9, sell9=sell9, seq13=seq13, combo13=combo13)
+    return dict(bs=bs, ss=ss, setup9=setup9, sell9=sell9, seq13=seq13, combo13=combo13,
+                seq_inc=seq_inc, seq_cancel=seq_cancel)
 
 
 def joint_signal(seq13, combo13, sell9, window):
