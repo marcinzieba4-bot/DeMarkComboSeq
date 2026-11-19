@@ -1,0 +1,68 @@
+                                            XLK ETF book  XLK put-spread book  50/50 mix  XLK buy & hold  Money market only
+CAGR %                                              5.23                 2.04       3.74           15.84               1.42
+Vol %                                              12.97                 4.04       8.35           23.80               0.11
+Sharpe                                              0.46                 0.52       0.48            0.74              12.67
+Max DD %                                          -39.23               -17.44     -28.11          -49.25              -0.00
+Calmar                                              0.13                 0.12       0.13            0.32             975.04
+Worst year %                                      -28.63               -14.27     -21.02          -40.30               0.02
+Best year %                                        27.64                10.34      18.89           56.02               5.13
+Losing years                                        1.00                 1.00       1.00            3.00               0.00
+Worst day %                                        -8.65                -3.91      -5.77          -13.81              -0.00
+CAGR 2008-Oct23 %                                   4.04                 1.20       2.73           14.22               0.84
+CAGR since Oct23 %                                 11.50                 6.39       8.97           24.07               4.41
+End value of 1                                      2.62                 1.46       2.00           16.05               1.30
+Return above money market %/yr                      4.53                 0.69       2.61           16.15              -0.00
+Sharpe above money market                           0.35                 0.17       0.31            0.68              -0.23
+Time below a previous high %                       57.52                49.99      53.00           87.37               0.27
+Longest spell below the high, years                 2.76                 8.26       2.81            2.93               0.05
+Longest fall, peak to trough, days                933.00                87.00     933.00          322.00               9.00
+Longest recovery, trough to new high, days        936.00              2931.00     953.00          750.00              11.00
+Drawdowns deeper than 5%                           12.00                 3.00       8.00           36.00               0.00
+Avg recovery of those, days                       196.08              1024.33     186.88           70.60                NaN
+Median recovery of those, days                     59.50               127.00      63.00           26.00                NaN
+Avg spell below high of those, days               235.75              1065.00     243.25          127.31                NaN
+Currently below the high by %                       0.00                 0.00       0.00          -18.91               0.00
+
+active 14% of days; money-market rate averaged 1.42%/yr; interest earned: ETF book 1.30%/yr (idle days only), put-spread book 1.41%/yr (all days)
+ETF trades: 19, hit 79%, avg 4.42%, worst -28.0%
+put spreads: 37, hit 70%, avg credit 2.14% of notional, avg width 7.8%, avg result 0.35%, worst -7.26%, best 4.22%
+
+five deepest drawdowns - XLK ETF book
+      peak     trough  recovered  depth  fall_days  recovery_days  under_water_days
+2008-09-08 2008-11-20 2011-06-14 -39.23         73            936              1009
+2011-07-26 2011-08-19 2011-10-10 -15.88         24             52                76
+2022-06-02 2022-06-16 2022-10-25 -13.90         14            131               145
+2015-07-20 2015-08-25 2015-10-23 -13.13         36             59                95
+2011-10-28 2012-06-01 2012-08-09 -12.45        217             69               286
+
+five deepest drawdowns - XLK put-spread book
+      peak     trough  recovered  depth  fall_days  recovery_days  under_water_days
+2008-09-08 2008-12-04 2016-12-13 -17.44         87           2931              3018
+2022-06-07 2022-06-16 2022-10-21  -6.52          9            127               136
+2022-02-16 2022-03-14 2022-03-29  -5.68         26             15                41
+2008-01-16 2008-03-10 2008-07-22  -4.26         54            134               188
+2022-10-28 2022-11-03 2022-11-10  -2.64          6              7                13
+
+five deepest drawdowns - 50/50 mix
+      peak     trough  recovered  depth  fall_days  recovery_days  under_water_days
+2008-09-08 2008-11-20 2011-07-01 -28.11         73            953              1026
+2011-07-26 2011-08-19 2011-10-12 -11.36         24             54                78
+2022-06-02 2022-06-16 2022-10-24 -10.19         14            130               144
+2011-10-28 2012-06-01 2012-08-07  -8.43        217             67               284
+2022-02-15 2022-03-14 2022-04-29  -8.33         27             46                73
+
+five deepest drawdowns - XLK buy & hold
+      peak     trough  recovered  depth  fall_days  recovery_days  under_water_days
+2008-01-03 2008-11-20 2010-12-10 -49.25        322         750.00              1072
+2021-12-27 2022-10-12 2023-06-15 -33.56        289         246.00               535
+2020-02-19 2020-03-23 2020-06-09 -31.15         33          78.00               111
+2025-02-19 2025-04-08 2025-06-12 -25.66         48          65.00               113
+2018-10-03 2018-12-24 2019-04-03 -23.78         82         100.00               182
+
+yearly returns %:
+                      2008  2009  2010  2011  2012  2013  2014  2015  2016  2017  2018  2019  2020  2021   2022  2023  2024  2025  2026
+XLK ETF book        -28.60 21.00 16.80  9.30 11.80  0.00  0.00  6.40  3.60  0.90  1.90 14.80  0.30  0.00  11.50  5.10  5.10 27.60  3.30
+XLK put-spread book -14.30  3.40  5.30  1.70  1.90  0.00  0.00  1.80  2.40  0.90  1.90  4.50  0.30  0.00   6.80  5.10  5.10 10.30  3.30
+50/50 mix           -21.00 12.00 10.90  5.60  6.80  0.00  0.00  4.20  3.00  0.90  1.90  9.60  0.30  0.00   9.40  5.10  5.10 18.90  3.30
+XLK buy & hold      -40.30 51.30 11.40  2.60 15.30 26.20 17.80  5.50 15.00 34.30 -1.70 49.90 43.60 34.70 -27.70 56.00 21.60 24.60 14.20
+Money market only     1.30  0.10  0.10  0.00  0.10  0.00  0.00  0.00  0.30  0.90  1.90  2.10  0.30  0.00   2.00  5.10  5.10  4.10  3.30

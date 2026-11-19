@@ -176,3 +176,11 @@ worse (3.0% a year, −46% drawdown, invested half the time); requiring three ac
 5.3% and −42%. The put-spread book moves almost exactly with the ETF book (daily correlation
 0.95), so running both adds size rather than diversification: 4.8% a year, −26% drawdown.
 Risk statistics: `results/s11_risk_stats.csv`.
+
+## Study 12 — XLK only: ETF book, put-spread book, 50/50 mix, with recovery times (`src/study12.py`, `results/report12.txt`)
+
+Full capital on the two-of-top-30 tech trigger, idle money in a money-market account. ETF book
+5.2% a year, −39% drawdown, 2.8 years to regain the 2008 high; put-spread book (modelled prices)
+2.0%, −17%, 8.3 years; 50/50 mix 3.7%, −28%, 2.8 years. Outside 2008 every drawdown of the mix
+recovered within five months. Risk statistics: `results/s12_risk_stats.csv`; chart:
+`results/s12_pnl.png`; drawdown lists: `results/s12_drawdowns_*.csv`.
