@@ -1,0 +1,90 @@
+                                            ETF book  Put-spread book  50/50 mix  Both at full size  SPY buy & hold  Money market only
+CAGR %                                          4.39             2.02       3.24               4.84           10.93               1.42
+Vol %                                           7.94             2.16       5.01              10.01           19.72               0.11
+Sharpe                                          0.58             0.94       0.66               0.52            0.63              12.67
+Max DD %                                      -19.56            -7.21     -13.40             -25.94          -51.87              -0.00
+Calmar                                          0.22             0.28       0.24               0.19            0.21             975.04
+Worst year %                                   -2.66            -0.97      -1.55              -6.04          -36.24               0.02
+Best year %                                    12.11             6.53       8.86              15.31           32.31               5.13
+Losing years                                    1.00             2.00       1.00               1.00            3.00               0.00
+Worst day %                                    -6.19            -2.25      -4.22              -8.43          -10.94              -0.00
+CAGR 2008-Oct23 %                               3.74             1.40       2.61               4.12            9.31               0.84
+CAGR since Oct23 %                              7.66             5.20       6.43               8.42           19.43               4.41
+End value of 1                                  2.25             1.46       1.83               2.44            7.09               1.30
+Return above money market %/yr                  3.20             0.61       1.91               3.82           10.92              -0.00
+Sharpe above money market                       0.40             0.28       0.38               0.38            0.55              -0.23
+Time below a previous high %                   76.13            63.42      67.94              77.14           87.54               0.27
+Longest spell below the high, years             1.89             2.82       1.88               1.91            3.32               0.05
+Longest fall, peak to trough, days            678.00           690.00     678.00             678.00          432.00               9.00
+Longest recovery, trough to new high, days    416.00           952.00     355.00             596.00          779.00              11.00
+Drawdowns deeper than 5%                        4.00             1.00       2.00               9.00           23.00               0.00
+Avg recovery of those, days                    65.50           952.00      75.00              97.44          107.09                NaN
+Median recovery of those, days                 60.00           952.00      75.00              34.00           48.50                NaN
+Avg spell below high of those, days           166.75          1031.00     142.00             252.33          179.39                NaN
+Currently below the high by %                  -1.43            -0.05      -0.73              -1.63           -6.28               0.00
+
+five deepest drawdowns - ETF book
+      peak     trough  recovered  depth  fall_days  recovery_days  under_water_days
+2008-08-11 2008-11-20 2009-03-26 -19.56        101         126.00               227
+2020-02-12 2020-03-23 2020-04-08 -16.75         40          16.00                56
+2011-07-22 2011-08-10 2011-10-10  -6.98         19          61.00                80
+2014-12-23 2015-08-25 2015-10-23  -5.36        245          59.00               304
+2023-09-14 2023-10-27 2023-11-17  -4.94         43          21.00                64
+
+five deepest drawdowns - Put-spread book
+      peak     trough  recovered  depth  fall_days  recovery_days  under_water_days
+2008-09-02 2008-11-20 2011-06-30  -7.21         79         952.00              1031
+2020-02-19 2020-03-23 2020-04-14  -4.69         33          22.00                55
+2011-07-22 2011-10-03 2011-10-18  -2.44         73          15.00                88
+2015-07-14 2015-09-29 2016-02-22  -1.65         77         146.00               223
+2011-10-28 2012-06-04 2012-08-03  -1.59        220          60.00               280
+
+five deepest drawdowns - 50/50 mix
+      peak     trough  recovered  depth  fall_days  recovery_days  under_water_days
+2008-08-11 2008-11-20 2009-04-03 -13.40        101         134.00               235
+2020-02-19 2020-03-23 2020-04-08 -10.83         33          16.00                49
+2011-07-22 2011-08-10 2011-10-12  -4.54         19          63.00                82
+2014-12-23 2015-08-25 2015-10-23  -3.29        245          59.00               304
+2023-09-14 2023-10-27 2023-11-15  -3.26         43          19.00                62
+
+five deepest drawdowns - Both at full size
+      peak     trough  recovered  depth  fall_days  recovery_days  under_water_days
+2008-08-11 2008-11-20 2010-07-09 -25.94        101         596.00               697
+2020-02-19 2020-03-23 2020-04-09 -20.86         33          17.00                50
+2011-07-22 2011-08-10 2011-10-12  -8.98         19          63.00                82
+2023-09-14 2023-10-27 2023-11-30  -7.06         43          34.00                77
+2014-12-23 2015-08-25 2015-10-23  -6.51        245          59.00               304
+
+five deepest drawdowns - SPY buy & hold
+      peak     trough  recovered  depth  fall_days  recovery_days  under_water_days
+2008-01-02 2009-03-09 2011-04-27 -51.87        432         779.00              1211
+2020-02-19 2020-03-23 2020-08-10 -33.72         33         140.00               173
+2022-01-03 2022-10-12 2023-12-13 -24.50        282         427.00               709
+2018-09-20 2018-12-24 2019-04-12 -19.35         95         109.00               204
+2025-02-19 2025-04-08 2025-06-26 -18.76         48          79.00               127
+
+ETF book: recovery time by depth of drawdown (calendar days, trough to new high)
+  2-5%: n=16, median 8, longest 100, median days below high 22
+  5-10%: n=2, median 60, longest 61, median days below high 192
+  10-+%: n=2, median 71, longest 126, median days below high 142
+
+Put-spread book: recovery time by depth of drawdown (calendar days, trough to new high)
+  2-5%: n=2, median 18, longest 22, median days below high 72
+  5-10%: n=1, median 952, longest 952, median days below high 1031
+  10-+%: n=0, median nan, longest nan, median days below high nan
+
+50/50 mix: recovery time by depth of drawdown (calendar days, trough to new high)
+  2-5%: n=9, median 16, longest 63, median days below high 63
+  5-10%: n=0, median nan, longest nan, median days below high nan
+  10-+%: n=2, median 75, longest 134, median days below high 142
+
+yearly returns %:
+                    2008  2009  2010  2011  2012  2013  2014  2015  2016  2017  2018  2019  2020  2021   2022  2023  2024  2025  2026
+ETF book           -2.70 10.10  3.80  5.90  4.90  0.20  2.60  0.30  4.90  1.90  1.20  9.10  2.10  0.10  12.10  6.90  4.40 11.20  5.20
+Put-spread book    -1.00  2.00  1.30  1.00  1.20  0.10  0.70  0.10  1.00  1.40  1.80  3.60 -0.40  0.40   5.20  4.90  5.00  6.50  3.50
+50/50 mix          -1.60  6.00  2.60  3.50  3.10  0.20  1.70  0.20  3.00  1.60  1.50  6.40  1.10  0.20   8.60  5.90  4.70  8.90  4.30
+Both at full size  -6.00 11.80  5.00  6.70  6.10  0.30  3.30  0.20  5.60  2.30  1.10 10.80  0.70  0.50  15.30  6.70  4.30 13.70  5.30
+SPY buy & hold    -36.20 26.40 15.10  1.90 16.00 32.30 13.50  1.20 12.00 21.70 -4.60 31.20 18.30 28.70 -18.20 26.20 24.90 17.70  7.90
+Money market only   1.30  0.10  0.10  0.00  0.10  0.00  0.00  0.00  0.30  0.90  1.90  2.10  0.30  0.00   2.00  5.10  5.10  4.10  3.30
+
+daily correlation above cash, ETF vs put spreads: 0.95

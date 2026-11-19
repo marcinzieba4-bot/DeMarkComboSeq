@@ -184,3 +184,9 @@ Full capital on the two-of-top-30 tech trigger, idle money in a money-market acc
 2.0%, −17%, 8.3 years; 50/50 mix 3.7%, −28%, 2.8 years. Outside 2008 every drawdown of the mix
 recovered within five months. Risk statistics: `results/s12_risk_stats.csv`; chart:
 `results/s12_pnl.png`; drawdown lists: `results/s12_drawdowns_*.csv`.
+
+## Study 13 — all-sector ETF book + the same strategy as put spreads, with recovery times (`src/study13.py`, `results/report13.txt`)
+
+ETF book 4.4% a year, −20% drawdown, 2008 loss recovered in 126 days from the low; put-spread
+book (modelled prices) 2.0%, −7%, 952 days; 50/50 mix 3.2%, −13%, 134 days. Risk statistics:
+`results/s13_risk_stats.csv`; chart: `results/s13_pnl.png`; drawdown lists: `results/s13_drawdowns_*.csv`.
