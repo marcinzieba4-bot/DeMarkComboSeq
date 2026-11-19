@@ -1,0 +1,145 @@
+ticker,yahoo,it_from,it_to,note
+AABA,,,2017-06-19,Yahoo! (delisted)
+AAPL,AAPL,,,
+ACN,ACN,,,
+ACS,,,,Affiliated Computer Services (acquired 2010)
+ADBE,ADBE,,,
+ADI,ADI,,,
+ADP,ADP,,2023-03-17,moved to Industrials 2023
+ADS,BFH,,,Alliance Data (now Bread Financial)
+ADSK,ADSK,,,
+AKAM,AKAM,,,
+ALTR,,,,Altera (acquired 2015)
+AMAT,AMAT,,,
+AMD,AMD,,,
+ANET,ANET,,,
+ANSS,,,,Ansys (acquired 2025)
+APH,APH,,,
+ATVI,,,2018-09-21,Activision (moved to Comm Services 2018; acquired 2023)
+AVGO,AVGO,,,
+BMC,,,,BMC Software (LBO 2013)
+BR,BR,,2023-03-17,moved to Industrials 2023
+BRCM,,,,Broadcom Corp (acquired 2016)
+CA,,,,CA Inc (acquired 2018)
+CDAY,DAY,,2023-03-17,moved to Industrials 2023
+CDNS,CDNS,,,
+CDW,CDW,,,
+CIEN,CIEN,,,
+COHR,COHR,,,
+CPWR,,,,Compuware (LBO 2014)
+CRM,CRM,,,
+CRWD,CRWD,,,
+CSCO,CSCO,,,
+CSRA,,,,CSRA (acquired 2018)
+CTSH,CTSH,,,
+CTXS,,,,Citrix (LBO 2022)
+CVG,,,,Convergys (acquired 2018)
+DDOG,DDOG,,,
+DELL,DELL,,,old Dell (to 2013) has no data; new Dell from 2024
+DXC,DXC,,,CSC/DXC
+EA,EA,,2018-09-21,moved to Comm Services 2018
+EBAY,EBAY,,2018-09-21,moved to Consumer Discretionary 2018
+EDS,,,,EDS (acquired 2008)
+EMC,,,,EMC (acquired 2016)
+ENPH,ENPH,,,
+EPAM,EPAM,,,
+FB,META,,2018-09-21,moved to Comm Services 2018
+FFIV,FFIV,,,
+FI,FISV,,2023-03-17,
+FISV,FISV,,2023-03-17,moved to Financials 2023
+FICO,FICO,,,
+FIS,FIS,,2023-03-17,moved to Financials 2023
+FLEX,FLEX,,,
+FLIR,,,,FLIR (acquired 2021)
+FLT,CPAY,,2023-03-17,moved to Financials 2023
+FSLR,FSLR,,,
+FTNT,FTNT,,,
+GDDY,GDDY,,,
+GEN,GEN,,,
+NLOK,GEN,,,
+SYMC,GEN,,,
+GLW,GLW,,,
+GOOG,GOOG,,2018-09-21,moved to Comm Services 2018
+GOOGL,GOOGL,,2018-09-21,moved to Comm Services 2018
+GPN,GPN,,2023-03-17,moved to Financials 2023
+HPE,HPE,,,
+HPQ,HPQ,,,
+HRS,LHX,,2016-12-31,Harris; treated as IT until 2016 (approx.)
+IBM,IBM,,,
+INTC,INTC,,,
+INTU,INTU,,,
+IPGP,IPGP,,,
+IT,IT,,,
+JAVA,,,,Sun Microsystems (acquired 2010)
+JBL,JBL,,,
+JKHY,JKHY,,2023-03-17,moved to Financials 2023
+JNPR,,,,Juniper (acquired 2025)
+KEYS,KEYS,,,
+KLAC,KLAC,,,
+LDOS,LDOS,,2023-03-17,SAIC/Leidos; moved to Industrials 2023
+LITE,LITE,,,
+LLTC,,,,Linear Technology (acquired 2017)
+LRCX,LRCX,,,
+LSI,,,,LSI (acquired 2014)
+LXK,,,,Lexmark (acquired 2016)
+MA,MA,,2023-03-17,moved to Financials 2023
+MCHP,MCHP,,,
+MFE,,,,McAfee (acquired 2011)
+MMI,,,,Motorola Mobility (acquired 2012)
+MOLX,,,,Molex (acquired 2013)
+MPWR,MPWR,,,
+MRVL,MRVL,,,
+MSFT,MSFT,,,
+MSI,MSI,,,
+MU,MU,,,
+MWW,,,,Monster Worldwide (acquired 2016)
+MXIM,,,,Maxim (acquired 2021)
+NOVL,,,,Novell (acquired 2011)
+NOW,NOW,,,
+NSM,,,,National Semiconductor (acquired 2011)
+NTAP,NTAP,,,
+NVDA,NVDA,,,
+NVLS,,,,Novellus (acquired 2012)
+NXPI,NXPI,,,
+ON,ON,,,
+ORCL,ORCL,,,
+PANW,PANW,,,
+PAYC,PAYC,,2023-03-17,moved to Industrials 2023
+PAYX,PAYX,,2023-03-17,moved to Industrials 2023
+PLTR,PLTR,,,
+PTC,PTC,,,
+PYPL,PYPL,,2023-03-17,moved to Financials 2023
+Q,Q,2025-01-01,,Qnity (earlier ticker Q was Qwest - telecom)
+QCOM,QCOM,,,
+QLGC,,,,QLogic (acquired 2016)
+QRVO,QRVO,,,
+RHT,,,,Red Hat (acquired 2019)
+ROP,ROP,2023-03-17,,Roper; treated as IT from 2023 (approx.)
+SEDG,SEDG,,,
+SMCI,SMCI,,,
+SNDK,SNDK,,,old SanDisk (to 2016) has no data; new SanDisk from 2025
+SNPS,SNPS,,,
+STX,STX,,,
+SUNEQ,,,,MEMC/SunEdison (bankrupt 2016)
+SWKS,SWKS,,,
+TDC,TDC,,,
+TDY,TDY,,,
+TEL,TEL,,,
+TER,TER,,,
+TLAB,,,,Tellabs (LBO 2013)
+TRMB,TRMB,,,
+TSS,,,,Total System Services (acquired 2019)
+TWTR,,,2018-09-21,Twitter (moved to Comm Services 2018)
+TXN,TXN,,,
+TYL,TYL,,,
+UIS,UIS,,,
+V,V,,2023-03-17,moved to Financials 2023
+VIAV,VIAV,,,JDSU/Viavi
+VNT,VNT,,,
+VRSN,VRSN,,,
+WDAY,WDAY,,,
+WDC,WDC,,,
+WU,WU,,2023-03-17,moved to Financials 2023
+XLNX,,,,Xilinx (acquired 2022)
+XRX,XRX,,,
+ZBRA,ZBRA,,,

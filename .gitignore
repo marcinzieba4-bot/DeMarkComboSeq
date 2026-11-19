@@ -1,0 +1,4 @@
+data/prices/
+data/raw/
+results/*.pkl
+__pycache__/
