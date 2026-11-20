@@ -190,3 +190,8 @@ recovered within five months. Risk statistics: `results/s12_risk_stats.csv`; cha
 ETF book 4.4% a year, −20% drawdown, 2008 loss recovered in 126 days from the low; put-spread
 book (modelled prices) 2.0%, −7%, 952 days; 50/50 mix 3.2%, −13%, 134 days. Risk statistics:
 `results/s13_risk_stats.csv`; chart: `results/s13_pnl.png`; drawdown lists: `results/s13_drawdowns_*.csv`.
+
+## Study 14 — trade-by-trade log (`src/study14.py`)
+
+Every trade of the all-sector book with the matching put spreads: `results/s14_trades_all.csv`
+(231 trades, 2008 – Nov 2026) and `results/s14_trades_2008_2009.csv` (33 trades).
